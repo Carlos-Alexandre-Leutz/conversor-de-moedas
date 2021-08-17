@@ -6,3 +6,4 @@ import store from './store'
 import money from 'v-money'
 
 createApp(App).use(store).use(router).use(money, { precision: 4 }).mount('#app')
+router.push({ path: "home" });
