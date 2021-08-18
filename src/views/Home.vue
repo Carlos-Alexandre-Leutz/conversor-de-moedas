@@ -163,7 +163,7 @@ export default {
       ViewModel.value.value = ref();
       ViewModel.value.moedaOrigem = ref();
       ViewModel.value.moedaDestino = ref();
-      optionsMoedasDestino.value = ref([]);
+      optionsMoedasDestino.value = [];
       coinOrigin.value = "";
       coinDestiny.value = "";
       converted_value.value = "";
